@@ -1,10 +1,11 @@
 
 .TituloPrincipal {
     color: brown;
-    font-size: 100px !important;
+    margin: 0px 0 0 0;
+    font-size: 320% !important;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 3px 5px 3px black;
+    text-shadow: 2px 3px 3px black;
     font-family: 'Mynerve', cursive;
 }
 
@@ -16,19 +17,27 @@
     font-family: 'Mynerve', cursive;
 }
 
+
+
 .muchos #p1{
-    font-size: 50px;
+    font-size: 185%;
+    margin: 25px 0 0 0;
+    display: inline-block;
 }
 .muchos #p2{
-    font-size: 40px;
+    font-size: 150%;
+    margin: 20px 0 0 0;
 }
 .muchos #p3{
-    font-size: 30px;
+    font-size: 115%;
+    margin: 15px 0 0 0;
 }
 .muchos #p4{
-    font-size: 20px;
+    font-size: 80%;
+    margin: 15px 0 0 0;
 }
 .muchos #p5{
-    font-size: 10px;
+    font-size: 45%;
+    margin: 15px 0 0 0;
 }
 
