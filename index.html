@@ -20,8 +20,34 @@
 <body>
 
     <script>
-        spam
+        function amorcito() {
+            var res = prompt("¿me amas?", "");
+            console.log(res);
+            if (res == "si") {
+                var amor = 0;
+                amor = prompt("del 1 al 10, cuanto me amas ?");
+                console.log(amor);
+
+                if (amor <= 11) {
+
+                    for (var i=1; i<=amor; i++) {
+                    var res2 = prompt("mucho mucho ?", "");
+                    console.log(i);                
+                    }
+
+                }
+                else{
+                    alert("no me amas, pipipipii");
+                }
+            }
+            else{
+                alert("no me amaaas, pipipipi");
+            }
+            
+        }
     </script>
+
+    <input type="button" onclick="amorcito();" value="Verificar"/>
 
     <header class="TituloPrincipal">Te amo mucho</header>
 
@@ -37,6 +63,7 @@
     <button class="boton" id="boton" type="button"> <img src="jl1.1.jpg" height ="210" width="310" /></button>
     </div>
 
+
     <audio src=""></audio>
     <script>
         var boton = document.querySelector(".boton")
@@ -50,6 +77,23 @@
     </script>
 
     <p class="p1">↑ presiona la imagen ↑ </p>
+
+    <div class="Dbtn">
+        <button class="btn1" type="button"><img src="stop.jpg" height ="50" width="50" /></button>
+        </div>
+    
+        <script>
+            var boton = document.querySelector(".btn1")
+            var audioEtiqueta = document.querySelector("audio")
+    
+            boton.addEventListener("click", () => {
+                const obj = document.querySelector("audio");
+                audioEtiqueta.pause();
+                console.log(obj.paused);
+            })
+        </script>
+
+        <p class="pause">pause</p>
 
 
 
@@ -70,7 +114,7 @@
             })
         </script>
     
-        <p class="p2">↑ presiona la imagen ↑ </p>
+        <p class="p2">↑ presiona la imagen 2 ↑ </p>
 
         <div class= "muchos">
             <h5 id="p5">mucho mucho mucho</h1>
