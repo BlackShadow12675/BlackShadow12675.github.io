@@ -41,3 +41,43 @@
     margin: 15px 0 0 0;
 }
 
+.player{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+
+.boton{
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 0 0 0 0;
+    border-width: 0px;
+    border-image: initial;
+}
+
+.DivBoton{
+    margin: 20px 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    text-align: center;
+}
+

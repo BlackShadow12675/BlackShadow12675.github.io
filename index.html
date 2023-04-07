@@ -28,15 +28,23 @@
         <h5 id="p5">mucho mucho mucho</h5>
     </div>
 
-    <video class="player" autoplay loop muted >
-        <source src="zoe-arrullo.mp3" />
-    </video>
-    
+    <div class="DivBoton">
+    <button class="boton" type="button"> <img src="jl1.1.jpg" height ="185.6" width="281.6" /></button>
+    </div>
+
+    <audio src=""></audio>
     <script>
-        window.onload = function () {
-            document.querySelector("video").muted = false;
-        };
+        let boton = document.querySelector(".boton")
+        let audioEtiqueta = document.querySelector("audio")
+
+        boton.addEventListener("click", () => {
+            audioEtiqueta.setAttribute("src", "zoe-arrullo.mp3")
+            audioEtiqueta.play()
+            console.log(`Reproduciendo: ${audioEtiqueta.src}`)
+        })
     </script>
+
+    <p class="p1">🢁 presiona la imagen 🢁 </p>
 
 </body>
 
