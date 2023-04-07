@@ -12,6 +12,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Me encantas</title>
+
+
+
 </head>
 
 <body>
@@ -24,14 +27,17 @@
         <h4 id="p4">mucho mucho mucho</h4>
         <h5 id="p5">mucho mucho mucho</h5>
     </div>
-    <audio controls preload autoplay>
-        <source src="zoe-arrullo.mp3" type="audio/mp3">
-        Tu navegador no soporta audio HTML5.
-    </audio>
 
-    <div>
-        <link rel="stylesheet" href="">
-    </div>
+    <video autoplay loop muted controls>
+        <source src="zoe-arrullo.mp3" />
+    </video>
+    
+    <script>
+        window.onload = function () {
+            document.querySelector("video").muted = false;
+        };
+    </script>
+
 </body>
 
 </html>
