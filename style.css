@@ -1,0 +1,34 @@
+
+.TituloPrincipal {
+    color: brown;
+    font-size: 100px !important;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 3px black;
+    font-family: 'Mynerve', cursive;
+}
+
+.muchos{
+    color: brown;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 3px black;
+    font-family: 'Mynerve', cursive;
+}
+
+.muchos #p1{
+    font-size: 50px;
+}
+.muchos #p2{
+    font-size: 40px;
+}
+.muchos #p3{
+    font-size: 30px;
+}
+.muchos #p4{
+    font-size: 20px;
+}
+.muchos #p5{
+    font-size: 10px;
+}
+
