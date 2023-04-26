@@ -91,7 +91,7 @@
             /* Lowering the shadow */
 }
 .btn1:active {
-    transform: scale(2);
+    transform: rotate(200deg);
     -webkit-transform: scale(2);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.563);
 }
